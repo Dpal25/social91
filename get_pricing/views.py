@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework import status
 from rest_framework.permissions import AllowAny
 from social91_coding import serializer
 from get_pricing import models
@@ -14,7 +15,7 @@ class GetPricing(APIView):
         try:
             price = models.PricePerPart.objects.get(date=request.data['date'])
         except:
-            return Response({'message': 'Incorrect Input'})
+            return Response(status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
         serialized = serializer.GetPricingSerializer(price)
 

@@ -1,0 +1,47 @@
+{"data": [
+{
+"date" : "2013-01-06",
+"name" : "cycle1",
+"components" : {
+"frame" : ["top_tube", "down_tube", "seat_tube"],
+"wheel" : ["spokes", "hub", "rim"],
+"seat" : ["saddle"],
+"handlebar" : ["handlebar_grip", "fork"],
+"chain" : ["chain", "chain_rings"]
+}
+},
+{
+"date" : "2013-03-19",
+"name" : "cycle2",
+"components" : {
+"frame" : ["top_tube", "down_tube", "seat_tube"],
+"wheel" : ["spokes", "hub", "rim"],
+"seat" : ["saddle"],
+"handlebar" : ["handlebar_grip", "fork"],
+"chain" : ["chain", "chain_rings"]
+}
+},
+{
+"date" : "2013-12-16",
+"name" : "cycle3",
+"components" : {
+"frame" : ["top_tube", "down_tube", "seat_tube"],
+"wheel" : ["spokes", "hub", "rim"],
+"seat" : ["saddle"],
+"handlebar" : ["handlebar_grip", "fork"],
+"chain" : ["chain", "chain_rings"]
+}
+},
+{
+"date" : "2013-08-11",
+"name" : "cycle4",
+"components" : {
+"frame" : ["top_tube", "down_tube", "seat_tube"],
+"wheel" : ["spokes", "hub", "rim"],
+"seat" : ["saddle"],
+"handlebar" : ["handlebar_grip", "fork"],
+"chain" : ["chain", "chain_rings"]
+}
+}
+]
+}
