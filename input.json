@@ -1,0 +1,11 @@
+{
+"date" : "2013-01-06",
+"name" : "cycle1",
+"components" : {
+"frame" : ["top_tube", "down_tube", "seat_tube"],
+"wheel" : ["spokes", "hub", "rim"],
+"seat" : ["saddle"],
+"handlebar" : ["handlebar_grip", "fork"],
+"chain" : ["chain", "chain_rings"]
+}
+}
